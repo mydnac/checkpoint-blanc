@@ -21,6 +21,15 @@ const videos = [
     },
 ]
 
+function averageView(videos) {
+let totalView = 0;
+for (let total = 0; total < videos.length; total++) {
+    totalView += videos[total].nbView
+    }
+    return totalView = totalView / videos.length
+}
+console.log(averageView(videos))    
+
 
 
 // Afficher le nombre moyen de vue  résultat : 407941.2
